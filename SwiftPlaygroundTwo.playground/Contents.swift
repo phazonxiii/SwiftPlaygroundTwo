@@ -3,7 +3,7 @@ import UIKit
 var str = "Hello, playground"
 
 var goodGrade = "I've been doing all my work"
-if goodGrade == "I'I'm not doing very well"
+if goodGrade == "I'm not doing very well"
 {
     print("I should be getting an A at this point")
 }
@@ -36,4 +36,43 @@ if tossACoinToYourWitcher == true
 else
 {
     print("He needs it for therapy")
+}
+
+//PART 5
+//Problem Set 1
+var int = 7 & 29
+
+if 7 > 29
+{
+    print("So say we all")
+}
+else
+{
+    print("Baltar will be the end of us all")
+}
+
+//Problem Set 2
+let a = "Blue is my favorite color, "
+let b = "and red is my other favoriter color"
+
+if a == a
+{
+    print(a + b)
+}
+else
+{
+    print("oh deary me")
+}
+
+//Problem Set 3
+let shampooIsBetterThanConditioner = true
+let noConditionerIsBetterThanShampoo = false
+
+if shampooIsBetterThanConditioner == noConditionerIsBetterThanShampoo
+{
+    print("Billy Madison is a brilliant film")
+}
+else
+{
+    print("Adam Sandler is a very silly man")
 }
